@@ -146,13 +146,15 @@ This document will take you through the steps to get access to the LinuxONE Comm
 3) If you have not done so already, change the permission bits of this key to 600.
 
    ```sh
-   chmod 600 /path/to/key/keyname.pem  
+   chmod 600 /path/to/key/keyname.pem
    ```
+
 4) Log in to the linux1 user ID with SSH.
 
    ```sh
    ssh –i /path/to/key/keyname.pem linux1@serveripaddress
    ```
+
 ### From Windows using PuTTY
 
 1) Set up PuTTY to use the SSH key for your server.  Refer to the [Setting up PUTTY on Windows to use ssh private key](http://developer.ibm.com/linuxone/wp-content/uploads/sites/57/2016/02/PUTTY-Set-up.pdf) tutorial.
